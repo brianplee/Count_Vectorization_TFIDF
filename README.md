@@ -2,5 +2,5 @@
 Preparing a set of documents for natural language processing from scratch:
 - Document pre-processing to remove special characters, punctuation, and extra spaces
 - Tokenizing words by splitting strings
-- Word count-vectorization across a set of documents 
-- TFIDF-score generation 
+- Count-vectorization of words across a set of documents to generate n-dimensional vectors where n = # of unique words in the corpus
+- TFIDF-score generation for each word in the vectors to be input in classification algorithms 
